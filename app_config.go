@@ -122,7 +122,7 @@ type serverInfo struct {
 
 }
 
-func init() {
+func Init() {
 	//init config
 	initFileConfig()
 
