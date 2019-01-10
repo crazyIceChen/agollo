@@ -163,7 +163,7 @@ func initConfig(loadAppConfig func()(*AppConfig,error)) {
 func InitCustomConfig(loadAppConfig func()(*AppConfig,error)) {
 
 	initConfig(loadAppConfig)
-
+	initCommon()
 	//init all notification
 	initAllNotifications()
 
