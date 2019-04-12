@@ -33,6 +33,5 @@ type LoggerInterface interface {
 }
 
 func initLogrusLog() LoggerInterface {
-	logrus.New()
-	return logger
+	return logrus.StandardLogger()
 }
